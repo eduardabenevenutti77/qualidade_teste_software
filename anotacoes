@@ -3,3 +3,9 @@
   - garante eficiencia, confiável e seguro 
  - atender as necessidades do cliente/usuários = fidelidade
  - software de alta qualidade = diminuição de erros e ganho de tempo (DINHEIRO)
+em qual parte o QA entra?
+ - análise, desenvolvimento, testes e deploy
+rotina de testes: planejamento (ideia), monitoramento, análise (escopo), modelagem do teste (caso de teste), implementação (ferramenta), execução e conclusão (relatório)
+qual é impacto?
+ - evita a entrega de algo sem qualidade
+ - cria a união entre os desenvolvedores com os QA
