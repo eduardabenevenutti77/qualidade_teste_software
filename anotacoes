@@ -3,17 +3,31 @@
   - garante eficiencia, confiável e seguro 
  - atender as necessidades do cliente/usuários = fidelidade
  - software de alta qualidade = diminuição de erros e ganho de tempo (DINHEIRO)
+-----------------------------------------------------------
 em qual parte o QA entra?
  - análise, desenvolvimento, testes e deploy
 rotina de testes: planejamento (ideia), monitoramento, análise (escopo), modelagem do teste (caso de teste), implementação (ferramenta), execução e conclusão (relatório)
 qual é impacto?
  - evita a entrega de algo sem qualidade
  - cria a união entre os desenvolvedores com os QA
+-----------------------------------------------------------
 tdd & bdd:
+  no tdd somente o dev faz o teste!
   tdd - desenvolvimento orientado por teste: iterativo (repetição de processo), cria o teste antes do código, refaturação (melhora o código)
   tdd circle of life: realiza teste antes da função/teste (deverá apresentar erro) -> teste aprovados (após a aplicação da função) -> returação (melhora o código até ficar 100%)
   beneficios tdd = feedbacks rápidos, código limpo, segurança, maior produtividade e menor possibilidade de falha
-teste determinístico: apresenta o mesmo valor em diferentes testes
-teste atômico: teste somente as funcionalidades que se relacionam a ele - teste pequeno / teste unitario
-teste isolado: não pode receber variaveis de fora
-teste rápido: fornece feedback de forma imediata, portanto deverá ser pequeno e rápido
+cenários:
+  teste determinístico: apresenta o mesmo valor em diferentes testes
+  teste atômico: teste somente as funcionalidades que se relacionam a ele - teste pequeno / teste unitario
+  teste isolado: não pode receber variaveis de fora
+  teste rápido: fornece feedback de forma imediata, portanto deverá ser pequeno e rápido
+
+  bdd - desenvolvimento orientado ao comportamento: evolução do tdd! desenvolvido entre as pessoas da regra de negocios, dev e QA, tenta chegar em um objetivo comum a todos,
+identifica possíveis falhas no sistema, testa como um todo (diferente do tdd que verifica apenas uma parte)
+  contras: os cenários necessitam ser claros, curtos e objetivos 
+cenários:
+  given: dado (pré-condição)
+  when: quando (ação realizada)
+  then: então  (o resultado tesável é alcançado)
+  "dado que estou na tela de login, e preencho os campos <login> e <senha>, quando clico no botão <entrar> então o sistema
+  irá autenticar a conta e exibirá uma mensagem de boas-vindas!"
