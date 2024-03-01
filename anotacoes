@@ -9,3 +9,11 @@ rotina de testes: planejamento (ideia), monitoramento, análise (escopo), modela
 qual é impacto?
  - evita a entrega de algo sem qualidade
  - cria a união entre os desenvolvedores com os QA
+tdd & bdd:
+  tdd - desenvolvimento orientado por teste: iterativo (repetição de processo), cria o teste antes do código, refaturação (melhora o código)
+  tdd circle of life: realiza teste antes da função/teste (deverá apresentar erro) -> teste aprovados (após a aplicação da função) -> returação (melhora o código até ficar 100%)
+  beneficios tdd = feedbacks rápidos, código limpo, segurança, maior produtividade e menor possibilidade de falha
+teste determinístico: apresenta o mesmo valor em diferentes testes
+teste atômico: teste somente as funcionalidades que se relacionam a ele - teste pequeno / teste unitario
+teste isolado: não pode receber variaveis de fora
+teste rápido: fornece feedback de forma imediata, portanto deverá ser pequeno e rápido
