@@ -24,7 +24,7 @@ cenários:
 
   bdd - desenvolvimento orientado ao comportamento: evolução do tdd! desenvolvido entre as pessoas: da regra de negocios, dev e QA; tenta chegar em um objetivo comum a todos,
 identifica possíveis falhas no sistema, testa como um todo (diferente do tdd que verifica apenas uma parte)
-  contras: os cenários necessitam ser claros, curtos e objetivos 
+  contras: os cenários precisam ser claros, curtos e objetivos 
 cenários:
   given: dado (pré-condição)
   when: quando (ação realizada)
