@@ -22,7 +22,7 @@ cenários:
   teste isolado: não pode receber variaveis de fora
   teste rápido: fornece feedback de forma imediata, portanto deverá ser pequeno e rápido
 
-  bdd - desenvolvimento orientado ao comportamento: evolução do tdd! desenvolvido entre as pessoas da regra de negocios, dev e QA, tenta chegar em um objetivo comum a todos,
+  bdd - desenvolvimento orientado ao comportamento: evolução do tdd! desenvolvido entre as pessoas: da regra de negocios, dev e QA; tenta chegar em um objetivo comum a todos,
 identifica possíveis falhas no sistema, testa como um todo (diferente do tdd que verifica apenas uma parte)
   contras: os cenários necessitam ser claros, curtos e objetivos 
 cenários:
