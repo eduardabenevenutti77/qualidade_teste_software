@@ -31,3 +31,21 @@ cenários:
   then: então  (o resultado testável é alcançado)
   "dado que estou na tela de login, e preencho os campos <login> e <senha>, quando clico no botão <entrar> então o sistema
   irá autenticar a conta e exibirá uma mensagem de boas-vindas!"
+--------------------------------------------------
+como fazer um bom teste?
+ 7 tópicos de testes:
+  - reduz a possibilidade de erros não encontrados (1º)
+  - não é viável realizar todos os testes documentados (2º)
+  - teste inicial economiza tempo e dinheiro, ajuda na redução ou eliminação de alteração sem sentidos (3º)
+  - defeitos se agrupam (4º)
+  - cuidado com o paradoxo do pesticida (5º)
+  - o teste depende do contexto que está inserido (6º)
+  - ausência de erros é uma ilusão (7º)
+ níveis de testes:
+  - componentes = (conhecido com teste unitário) - defeitos: funcionalidade incorretas, problemas no fluxo de dados e código ou lógica incorretos
+  - integração = (interação entre componentes) - defeitos: dados incorretos, incompatibilidade, falhas na comunicação entre componentes ou sincronia falhada
+  - sistema - defeitos:  cáculos incorretos, resultados incorretos ou inesperados, controle de dados de sistema incorretos e falha na funcionalidade do sistema
+  - aceitação (com usuários, operacional, regulatório, alfa e beta)
+  cada nível pega uma falha especifica
+  
+    
