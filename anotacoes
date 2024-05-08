@@ -47,5 +47,19 @@ como fazer um bom teste?
   - sistema - defeitos:  cáculos incorretos, resultados incorretos ou inesperados, controle de dados de sistema incorretos e falha na funcionalidade do sistema
   - aceitação (com usuários, operacional, regulatório, alfa e beta)
   cada nível pega uma falha especifica
-  
-    
+--------------------------------------------------  
+a busca pela qualidade é um trabalho em equipe entre os dev's e os QA's
+ pontos importantes a serem verificados em uma API backend:
+  - número da porta
+  - verificar endpoint (padrões, dados incorretos)
+  - criar um plano de teste
+  nodemon: atualiza automaticamente o servidor!!!
+  lições:
+    - nunca confiar no códigos dos outros
+    - ler o código antes de executar
+    - documentações dos passo a passo
+    - documentação dos resultados
+    - utilizar uma ferramenta adequada para a realização dos testes
+  solução:
+    - criação de planilha de teste
+
