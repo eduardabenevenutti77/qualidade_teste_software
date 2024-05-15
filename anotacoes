@@ -63,3 +63,10 @@ a busca pela qualidade é um trabalho em equipe entre os dev's e os QA's
   solução:
     - criação de planilha de teste
 
+automação de testes
+ -> script de testes: conjunto de comandos que automatizam determinada ação
+ -> framework de testes: fornece supote para o desenvolvimento e execução
+ -> seletores e asserts: voltado na parte de teste para frontend
+ -> dados de testes: 
+ -> teste unitário: 
+ -> teste de integração:
